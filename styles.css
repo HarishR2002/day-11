@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+}
+
+.event-details {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-section {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+}
+
+.image-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.form-container {
+    flex: 2;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="tel"],
+.input-group input[type="number"],
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-container {
+    text-align: right;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button {
+    background-color: #f44336;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
